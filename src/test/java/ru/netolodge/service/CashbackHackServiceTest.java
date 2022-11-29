@@ -40,9 +40,7 @@ public class CashbackHackServiceTest {
 
     @Test
     public void boundaryValue() {
-        service.remain(1000);
-
-        int actual = 0;
+        int actual = service.remain(1000);
         int expected = 0;
 
         Assert.assertEquals(actual, expected);
