@@ -1,7 +1,8 @@
 package ru.netolodge.service;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+
+import org.junit.Assert;
+import org.junit.Test;
 
 public class CashbackHackServiceTest {
 
@@ -14,7 +15,7 @@ public class CashbackHackServiceTest {
         int actual = 999;
         int expected = 999;
 
-        Assertions.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -24,7 +25,7 @@ public class CashbackHackServiceTest {
         int actual = 1;
         int expected = 1;
 
-        Assertions.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -34,7 +35,7 @@ public class CashbackHackServiceTest {
         int actual = 500;
         int expected = 500;
 
-        Assertions.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -44,6 +45,6 @@ public class CashbackHackServiceTest {
         int actual = 1100;
         int expected = 1100;
 
-        Assertions.assertEquals(expected, actual);
+        Assert.assertEquals(expected, actual);
     }
 }
